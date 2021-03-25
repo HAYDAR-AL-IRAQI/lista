@@ -1,7 +1,7 @@
 <?php
 echo "خب ديييييي صاير نغل وجاي طلع الملف ههههههاي";
 ob_start();
-$token = "التوكن";
+$token = "1774634567:AAGYlC0Azc1rDQj7OTUtj7Bx_3nzcQjNw-4";
 define("API_KEY", $token);
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
